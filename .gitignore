@@ -62,5 +62,9 @@ wp-content/themes/*
 !wp-content/themes/react/index.php
 wp-content/themes/react/node_modules
 
+!wp-content/themes/skeleton/
+!wp-content/themes/skeleton/index.php
+wp-content/themes/skeleton/node_modules
+
 wp-content/plugins/*
-!wp-content/plugins/react/
+

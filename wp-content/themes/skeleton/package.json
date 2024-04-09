@@ -1,0 +1,16 @@
+{
+  "name": "viewsource-blocks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "wp-scripts start",
+    "build": "wp-scripts build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "gpl-2.0+",
+  "devDependencies": {
+    "@wordpress/scripts": "^27.6.0"
+  }
+}

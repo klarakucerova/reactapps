@@ -1,5 +1,5 @@
 {
-    "name": "rideforpalestine",
+    "name": "skeleton",
     "version": "1.1.0",
     "description": "Frontend build tools for the WP Skeleton WordPress Theme",
     "main": "gulpfile.js",
