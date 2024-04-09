@@ -1,0 +1,9 @@
+
+.container {
+    @include rem(max-width, 800px);
+    margin: 0 auto;
+}
+
+.app {
+    @include rem(font-size, 30px);
+}

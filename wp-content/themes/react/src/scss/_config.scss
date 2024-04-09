@@ -1,0 +1,65 @@
+// Vertical rhythm settings
+// ------------------------------------------------
+$spacing-unit: 10px;
+
+// Grid settings applied for the bourbon neat library
+// ------------------------------------------------
+$column: 70px;
+$gutter: 30px;
+$grid-columns: 12;
+$max-width: 1200px;
+
+// Mixin vars
+// ------------------------------------------------
+
+// Colour palette
+// ------------------------------------------------
+$white: #fff;
+$black: #000;
+$grey: #F7F7F7;
+$grey-dark: #818181;
+$grey-light: #e0e0e0;
+$red: red;
+
+$color-primary: $black;
+$color-secondary: $grey-dark;
+$color-body-text: rgba($grey-dark, .75);
+
+// Borders and Shadows
+// ------------------------------------------------
+$border-color: $grey-light;
+$border-radius: 4px;
+$border: 1px solid $border-color;
+
+$shadow: 0 0 28px 0 rgba(0, 0, 0, .1);
+
+// Main Typographic Heading sizes
+// ------------------------------------------------
+$font-size-base: 16px;
+
+$heading-one: 32px;
+$heading-two: 30px;
+$heading-three: 26px;
+$heading-four: 22px;
+$heading-five: 18px;
+$heading-six: 16px;
+
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+$font-base: sans-serif;
+$font-header: serif;
+
+// Common breakpoints
+// ------------------------------------------------
+$breakpoints: (
+    'small': (480px / $font-size-base) * 1rem,
+    'medium': (770px / $font-size-base) * 1rem,
+    'large': (1200px / $font-size-base) * 1rem
+);
+
+$small: map-get($breakpoints, 'small');
+$medium: map-get($breakpoints, 'medium');
+$large: map-get($breakpoints, 'large');

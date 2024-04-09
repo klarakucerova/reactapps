@@ -1,0 +1,1 @@
+{"version":3,"file":"index.css","mappings":";;;AAAA;EACI;EACA;AACJ;;AACA;EACI;EACA;AAEJ,C","sources":["webpack://reactapps/./src/main.scss"],"sourcesContent":[".react {\n    padding: 30px;\n    border: 2px solid #000;\n}\n.heading {\n    color: #000;\n    font-size: 22px;\n}"],"names":[],"sourceRoot":""}

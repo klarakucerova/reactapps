@@ -1,0 +1,1 @@
+/Users/klara/VALET/reactapp/wp-content/plugins/query-monitor/wp-content/db.php

@@ -1,0 +1,54 @@
+{
+    "name": "rideforpalestine",
+    "version": "1.1.0",
+    "description": "Frontend build tools for the WP Skeleton WordPress Theme",
+    "main": "gulpfile.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "preinstall": "npx force-resolutions"
+    },
+    "author": "Klara Kucerova",
+    "license": "ISC",
+    "devDependencies": {
+        "ansi-colors": "^4.1.3",
+        "axios": "^1.6.2",
+        "beepbeep": "^1.3.0",
+        "breakpoint-sass": "^3.0.0",
+        "browser-sync": "^2.29.3",
+        "browserslist": "^4.22.1",
+        "bufferutil": "^4.0.8",
+        "gulp": "^4.0.2",
+        "gulp-autoprefixer": "^7.0.1",
+        "gulp-changed": "^4.0.3",
+        "gulp-clean-css": "^4.3.0",
+        "gulp-eslint": "^6.0.0",
+        "gulp-imagemin": "^7.1.0",
+        "gulp-minify": "^3.1.0",
+        "gulp-plumber": "^1.2.1",
+        "gulp-postcss": "^9.0.1",
+        "gulp-sass": "^5.1.0",
+        "gulp-svgmin": "^4.1.0",
+        "gulp-svgstore": "^9.0.0",
+        "postcss": "^8.4.31",
+        "postcss-scss": "^4.0.9",
+        "socket.io": "^4.7.2",
+        "stylelint": "^15.11.0",
+        "trim-newlines": "^5.0.0",
+        "ts-node": "^10.9.1",
+        "utf-8-validate": "^6.0.3"
+    },
+    "browserslist": [
+        "last 2 versions"
+    ],
+    "dependencies": {
+        "glob-parent": "^6.0.2",
+        "node-sass": "^9.0.0",
+        "ow": "^1.1.1",
+        "yargs-parser": "^21.1.1"
+    },
+    "resolutions": {
+        "trim-newlines": "^5.0.0",
+        "yargs-parser": "^21.1.1",
+        "glob-parent": "^6.0.2"
+    }
+}
